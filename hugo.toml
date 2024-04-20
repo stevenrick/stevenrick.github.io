@@ -1,0 +1,65 @@
+baseURL = 'https://stevenrick.com/'
+languageCode = 'en-us'
+title = 'Steven R. Rick'
+theme = ['barks', 'hugo-cite']
+
+[params.head]
+    author = "Steven R. Rick"
+    description = "Postdoctoral Research Associate at MIT"
+    keywords = ["Steven R. Rick", "Human-Computer Interaction", "Collective Intelligence", "Researcher"]
+
+[params.navigation]
+    show_navigation = true
+
+[menus]
+[[menus.main]]
+    name = 'About'
+    pageRef = '/'
+    weight = 10
+
+[[menus.main]]
+    name = 'Blog'
+    url = 'https://blog.stevenrick.com/'
+    weight = 20
+    [menus.main.params]
+        rel = 'external'
+
+[params.footer]
+    show_footer = true
+
+[params.typography]
+    title_font = "Roboto Serif"
+    body_font = "Roboto Sans Serif"
+
+[params.colors]
+    theme_color = "#333333"
+    background_color = "#fcfbf9"
+    text_color = "#333333"
+    link_color = "#60c17d"
+
+[params.social]
+    [params.social.email]
+        name = "E-Mail"
+        class = "fas fa-envelope"
+        url = "mailto:steven@stevenrick.com"
+        weight = 1
+    [params.social.github]
+        name = "GitHub"
+        class = "fab fa-github"
+        url = "https://github.com/stevenrick"
+        weight = 2
+    [params.social.google_scholar]
+        name = "Google Scholar"
+        class = "ai ai-google-scholar-square"
+        url = "https://scholar.google.com/citations?user=6KjGvzYAAAAJ"
+        weight = 3
+    [params.social.linkedin]
+        name = "LinkedIn"
+        class = "fab fa-linkedin"
+        url = "https://www.linkedin.com/in/stevenrick/"
+        weight = 4
+    [params.social.orcid]
+        name = "ORCiD"
+        class = "ai ai-orcid"
+        url = "https://orcid.org/0000-0001-9739-316X"
+        weight = 5

@@ -1,0 +1,11 @@
+
+{{ if not (eq .Site.Params.navigation.show_navigation false) }}
+<nav>
+    <ul>
+    {{ $currentPage := . -}}
+    {{ range .Site.Menus.main }}
+        <li><a {{if eq $currentPage .Page}}class="active"{{end}} href="{{ .URL }}">{{ .Name }}</a></li>
+    {{ end }}
+    </ul>
+</nav>
+{{ end }}
