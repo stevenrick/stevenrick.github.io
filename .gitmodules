@@ -1,6 +1,6 @@
-[submodule "barks"]
+[submodule "themes/barks"]
 	path = themes/barks
-	url = https://github.com/timothygebhard/barks
+	url = https://github.com/timothygebhard/barks.git
 [submodule "themes/hugo-cite"]
 	path = themes/hugo-cite
 	url = https://github.com/loup-brun/hugo-cite.git
