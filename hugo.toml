@@ -1,7 +1,7 @@
 baseURL = 'https://stevenrick.com/'
 languageCode = 'en-us'
 title = 'Steven R. Rick'
-theme = ['barks', 'hugo-cite']
+theme = ['barks']
 
 [params.head]
     author = "Steven R. Rick"

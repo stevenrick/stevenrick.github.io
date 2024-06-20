@@ -7,7 +7,7 @@ Currently: Postdoc @ [MIT](https://web.mit.edu/) with [CCI](https://cci.mit.edu/
 
 Previously: PhD @ [UCSD](https://www.ucsd.edu/) with [HXI](https://hxi.ucsd.edu/) and [DesignLab](https://designlab.ucsd.edu/)
 
-I’m currently working on the design, development, and evaluation of systems that augment human capabilities with computational agents.
+I’m currently working on the design, development, and evaluation of systems that augment how humans creatively solve problems.
 
 You can check out my [links](/links) and [publications](/publications) to see what I've been up to.
 
