@@ -6,6 +6,10 @@ weight = 40
 draft = false
 +++
 
+#### 2024
+
+Heyman, J., **Rick, S.**, Giacomelli, G., Wen, H., Laubacher, R., Taubenslag, N., Knicker, M., Jeddi, Y., Ragupathy, P., Curhan, J. & Malone, T. (2024). _Supermind Ideator: How Scaffolding Human-AI Collaboration Can Increase Creativity._ https://doi.org/10.1145/3643562.3672611
+
 #### 2023
 
 Cai, A.,  **Rick, S.**, Heyman, J., Zhang, Y., Filipowicz, A., Hong, M., Klenk, M. & Malone, T. (2023). _DesignAID: Using Generative AI and Semantic Diversity for Design Inspiration._ https://doi.org/10.1145/3582269.3615596
