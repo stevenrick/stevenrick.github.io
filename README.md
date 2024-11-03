@@ -1,4 +1,4 @@
-###Setup Local Dev
+### Setup Local Dev
 
 
 git clone [repo]
