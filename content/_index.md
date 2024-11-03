@@ -11,4 +11,4 @@ I’m currently working on the design, development, and evaluation of systems th
 
 You can check out my [links](/links) and [publications](/publications) to see what I've been up to.
 
-My work generally spans the fields of human-computer interaction, applied AI, and design.
+My work generally spans the fields of human-computer interaction, applied AI, and design. I am especially excited about the emergent capabilities of human-computer teams.
