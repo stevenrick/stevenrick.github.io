@@ -6,11 +6,11 @@ weight = 30
 draft = false
 +++
 
-- **Dagstuhl Seminar 25442** (co-organizer): [Augmenting Human Creativity with AI](https://www.dagstuhl.de/25442)
-
 - **3C Fellow** (first cohort): [Cultural Competence in Computing](https://identity.cs.duke.edu/fellows.html)
 
 - **CSE DEI Committee** (founding member): [UC San Diego](https://cse.ucsd.edu/diversity/cse-dei-committee)
+
+- **Dagstuhl Seminar 25442** (co-organizer): [Augmenting Human Creativity with AI](https://www.dagstuhl.de/25442)
 
 - **EmpowerMD** (researcher): [Microsoft Research](https://www.microsoft.com/en-us/research/video/empowermd-medical-conversations-to-medical-intelligence/)
 
