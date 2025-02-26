@@ -63,3 +63,8 @@ theme = ['barks']
         class = "ai ai-orcid"
         url = "https://orcid.org/0000-0001-9739-316X"
         weight = 5
+    [params.social.semantic-scholar]
+        name = "Semantic Scholar"
+        class = "ai ai-semantic-scholar"
+        url = "https://www.semanticscholar.org/author/Steven-R.-Rick/3845918"
+        weight = 6
