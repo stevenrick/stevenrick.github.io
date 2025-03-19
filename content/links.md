@@ -1,7 +1,5 @@
 +++
 title = 'Links'
-date = 2024-04-20T13:35:12-04:00
-menu = 'main'
 weight = 30
 draft = false
 +++

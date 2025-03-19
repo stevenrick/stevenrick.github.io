@@ -1,10 +1,11 @@
 +++
 title = 'Publications'
-date = 2024-04-14T15:03:42-04:00
 menu = 'main'
 weight = 40
 draft = false
 +++
+
+These are a subset of peer reviewed published articles from my [curriculum vitae](https://drive.google.com/file/d/1MI95BTCKSKNYh1-BvJurPmgLtOsfU3vx/view?usp=sharing)
 
 ★ Indicates Equal Contribution
 
@@ -15,8 +16,6 @@ draft = false
 #### 2023
 
 Cai,  **Rick**, Heyman, Zhang, Filipowicz, Hong, Klenk & Malone. (2023). [DesignAID: Using Generative AI and Semantic Diversity for Design Inspiration](https://doi.org/10.1145/3582269.3615596). _Proceedings of ACM CI Conference_. **Best Paper Award**
-
-★**Rick**, ★Giacomelli, Wen, Laubacher, Taubenslag, Heyman, Knicker, Jeddi, Maier, Dwyer, Ragupathy & Malone. (2023). [Supermind Ideator: Exploring generative AI to support creative problem-solving](https://doi.org/10.48550/arXiv.2311.01937). _arXiv Preprint_
 
 #### 2021
 
