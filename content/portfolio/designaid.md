@@ -1,6 +1,6 @@
 +++
 title = 'Design AID'
-featured_image = 'placeholder.png'
+featured_image = 'images/designaid.png'
 draft = false
-weight = '0'
+weight = 2
 +++

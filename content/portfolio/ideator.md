@@ -1,5 +1,7 @@
 +++
-title = 'Ideator'
-weight = '0'
+title = 'Supermind Ideator'
+featured_image = 'images/ideator_logo.png'
 draft = false
+weight = 1
 +++
+
