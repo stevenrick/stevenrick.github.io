@@ -1,14 +1,26 @@
 +++
 layout = 'landing_page'
-image = 'headshot.jpg'
+image = 'images/headshot.jpg'
 +++
 
-Currently: Postdoc @ [MIT](https://web.mit.edu/) with [CCI](https://cci.mit.edu/) and [CSAIL](https://www.csail.mit.edu/)
+HCI Scientist **-** UX Researcher **-** AI Applications Engineer
 
-Previously: PhD @ [UCSD](https://www.ucsd.edu/) with [HXI](https://hxi.ucsd.edu/) and [DesignLab](https://designlab.ucsd.edu/)
+⠀
 
-I’m currently working on the design, development, and evaluation of systems that augment how humans creatively solve problems.
+Currently:
+- Postdoc @ [MIT](https://web.mit.edu/) with [CCI](https://cci.mit.edu/) and [CSAIL](https://www.csail.mit.edu/)
 
-You can check out my [links](/links) and [publications](/publications) to see what I've been up to, or look at my [full CV here](https://drive.google.com/file/d/1MI95BTCKSKNYh1-BvJurPmgLtOsfU3vx/view?usp=sharing).
+⠀
 
-My work generally spans the fields of human-computer interaction, applied AI, and design. I am especially excited about the emergent capabilities of human-computer teams.
+Previously:
+- PhD @ [UCSD](https://ucsd.edu/) with [HXI](https://hxi.ucsd.edu/) and [DesignLab](https://designlab.ucsd.edu/)
+- Research Software Development Engineer @ [Microsoft Research](https://www.microsoft.com/en-us/research/) with [EmpowerMD](https://www.microsoft.com/en-us/research/project/empowermd/)
+- Graduate Student Intern @ [IBM Research](https://research.ibm.com/) with [Project BlueSky](https://www.youtube.com/watch?v=1CPPgeHCIDU)
+- Research Assistant @ [Veterans Medical Research Foundation](https://www.vmrf.org/) with [QUICK](https://digital.ahrq.gov/ahrq-funded-projects/quantifying-electronic-medical-record-usability-improve-clinical-workflow)
+- Product Development Intern @ [CliniComp Inc.](https://clinicomp.com/)
+
+⠀
+
+Check my [portfolio](/portfolio) or [publications](/publications) to see what I've been up to.
+
+Or read my [full CV here](https://drive.google.com/file/d/1MI95BTCKSKNYh1-BvJurPmgLtOsfU3vx/view?usp=sharing).

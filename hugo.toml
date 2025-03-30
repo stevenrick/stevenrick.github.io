@@ -5,8 +5,8 @@ theme = ['barks']
 
 [params.head]
     author = "Steven R. Rick"
-    description = "Postdoctoral Research Associate at MIT"
-    keywords = ["Steven R. Rick", "Human-Computer Interaction", "Collective Intelligence", "Researcher"]
+    description = "Personal website of Steven R. Rick"
+    keywords = ["Steven R. Rick", "Solutions Engineer", "HCI Scientist", "UX Researcher"]
 
 [params.navigation]
     show_navigation = true
