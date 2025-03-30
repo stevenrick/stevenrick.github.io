@@ -2,7 +2,7 @@
 title = 'Active Notes'
 featured_image = 'images/activenotes.png'
 draft = false
-weight = 6
+weight = 7
 +++
 
 ## Overview

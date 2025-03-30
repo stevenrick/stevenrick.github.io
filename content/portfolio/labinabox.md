@@ -9,12 +9,15 @@ weight = 8
 
 - As a research assistant at [VMRF](https://www.vmrf.org), I built out and deployed a portable multimodal usability lab we called _Lab In A Box_.
 - The system used a web cam, Kinect RGB-D camera, SMI Remote Eyetracker, Microcone Microphone Array, and Morae software to capture keyboard and mouse activity.
+- I built approaches for multimodal data analysis of doctor attention (using eye tracking and body tracking), doctor-patient communication behavior (both verbal and non-verbal), and EHR usage (via screen capture and using keyboard and mouse activity)
+- I ran interviews with doctors to better understand their experiences of using the health record software and identify opportunities for improvements to be made.
 
 ## Outcomes
 
 - The Lab In A Box was successfully deployed across 200+ outpatient clinic visits at both UCSD and VASD.
 - The multimodal data captured supported 30+ stimulated recall interviews where doctors reacted to their own workflows.
-- The system inspired the [ChronoSense](../chronosense) software and research findings led to the [ActiveNotes](../activenotes) prototype.
+- The system inspired the [ChronoSense](../chronosense) software and inspired follow-up research collaborations.
+- Research findings that doctors spend most of their time in clinical notes and order entry led to the [ActiveNotes](../activenotes) prototype.
 
 ## Details
 
