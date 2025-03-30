@@ -15,11 +15,13 @@ weight = 7
 
 ## Details
 
-
+![ASL 3D Point Cloud GIF](../../images/asl.gif)
+![ASL 3D Point Cloud](../../images/asl.png)
 
 ## Artifacts
 
-
+- []()
+- []()
 
 ## Skills
 
