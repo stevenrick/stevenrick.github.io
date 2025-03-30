@@ -14,10 +14,12 @@ weight = 8
 
 ## Outcomes
 
-- The Lab In A Box was successfully deployed across 200+ outpatient clinic visits at both UCSD and VASD.
-- The multimodal data captured supported 30+ stimulated recall interviews where doctors reacted to their own workflows.
-- The system inspired the [ChronoSense](../chronosense) software and inspired follow-up research collaborations.
+- I successfully deployed the Lab In A Box across 200+ outpatient clinic visits at both UCSD and VASD.
+- The multimodal data I captured supported 30+ stimulated recall interviews where doctors reacted to their own workflows.
+- The system inspired the [ChronoSense](../chronosense) software and generated follow-up research collaborations.
 - Research findings that doctors spend most of their time in clinical notes and order entry led to the [ActiveNotes](../activenotes) prototype.
+
+![Doctor EHR usage](../../images/ehr_flow.png)
 
 ## Details
 

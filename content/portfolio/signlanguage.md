@@ -12,8 +12,8 @@ weight = 6
 
 ## Outcomes
 
-- Integrated Leap Motion hand tracking and data capture into the Lab In A Box software infrastucture.
-- Generated findings that ASL signers use a much less dense area of hand motion than non-signers, spreading out around their upper chest and lower face.
+- I integrated Leap Motion hand tracking and data capture into the Lab In A Box software infrastucture.
+- I generated analyses and visualizations that showed ASL signers use a much larger and sparser area of hand motion than non-signers, moving widely around their upper chest and lower face.
 
 ## Details
 
