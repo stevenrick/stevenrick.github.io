@@ -43,6 +43,7 @@ weight = 8
 - Observational Studies (fly-on-the-wall)
 - Stimulated Recall Interviews
 - Multimodal Data Analysis (Python)
+- Information Visualization (Python)
 - Eye Tracking
 - Body Tracking
 - Speaker Diarization
