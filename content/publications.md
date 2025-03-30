@@ -5,7 +5,7 @@ weight = 40
 draft = false
 +++
 
-These are a subset of peer reviewed published articles from my [curriculum vitae](https://drive.google.com/file/d/1MI95BTCKSKNYh1-BvJurPmgLtOsfU3vx/view?usp=sharing)
+These are a subset of peer reviewed published articles from my [curriculum vitae](https://drive.google.com/file/d/1MI95BTCKSKNYh1-BvJurPmgLtOsfU3vx/view?usp=sharing).
 
 #### 2024
 

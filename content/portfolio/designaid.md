@@ -23,7 +23,7 @@ weight = 2
 - After validating the generation pipeline, I moved our compute stack to AWS, using CloudFormation to spin up more EC2 instances on demand when users connected to our application.
 - FastAPI provided a middle layer between our Empirica experiment and the AWS compute endpoints I was managing to react to bursty user participation from Prolific.
 
-![Example designs from study](../../images/chair_examples.png)
+![Example designs from study](../../images/chair_examples.jpeg)
 
 - We found that our LLM-based new idea mode helped people produce more inspiring output as they got started, but once users knew how to 'talk to the system' it was more likely to get in the way than help.
 - This idea of scaffolding use of emerging tech follows into my work on [Supermind Ideator](../ideator) and emphasizes a need for more human autonomy, something we are actively incorporating into the next version of DesignAID.
