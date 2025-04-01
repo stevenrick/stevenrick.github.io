@@ -35,7 +35,7 @@ weight = 2
 
 ## Skills
 
-- Full Stack Web Application Developemnt (React, FastAPI, NGINX, AWS CloudFormation, EC2)
+- Full Stack Web Application Development (React, FastAPI, NGINX, AWS CloudFormation, EC2)
 - Large Language Models (GPT), Text-Image Diffusion Models (Stable Diffusion), Semantic Embedding (Universal Sentence Encoder)
 - HPC (Slurm, used before moving over to AWS)
 - Rapid Prototyping

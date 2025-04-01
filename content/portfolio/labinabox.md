@@ -8,7 +8,7 @@ weight = 8
 ## Overview
 
 - As a research assistant at [VMRF](https://www.vmrf.org), I built out and deployed a portable multimodal usability lab we called _Lab In A Box_.
-- The system used a web cam, Kinect RGB-D camera, SMI Remote Eyetracker, Microcone Microphone Array, and Morae software to capture keyboard and mouse activity.
+- The system used a webcam, Kinect RGB-D camera, SMI Remote Eyetracker, Microcone Microphone Array, and Morae software to capture keyboard and mouse activity.
 - I built approaches for multimodal data analysis of doctor attention (using eye tracking and body tracking), doctor-patient communication behavior (both verbal and non-verbal), and EHR usage (via screen capture and using keyboard and mouse activity)
 - I ran interviews with doctors to better understand their experiences of using the health record software and identify opportunities for improvements to be made.
 
@@ -26,8 +26,8 @@ weight = 8
 - In order to help quantify the usability effects of Electronic Medical Record software on doctor-patient interaction, I first led requirements gathering for the research team.
 - I identified a number of off-the-shelf software and hardware options that were approved by VA and UCSD IRB for clinical data capture (HIPAA compliant).
 - I built out a Pelican case with cable extensions to support packing everything into the box for portability while also making sure everything was connected in advance so the case could be quickly set up in any clinical environment.
-- After collecting an initial set of pilot data, I built out Python and Java applications to analyze and stitch together the multimodal data that was collected from multiple separate softwares in order to unify the data for analysis in [ChronoViz](https://chronoviz.com/).
-- Time series analysis led us to learn that doctors spent the bulk of their clinic time working with the EHR, spending less than half the visit actually interacting with their patient.
+- After collecting an initial set of pilot data, I built out Python and Java applications to analyze and stitch together the multimodal data that was collected from multiple separate software in order to unify the data for analysis in [ChronoViz](https://chronoviz.com/).
+- Time series analysis led us to learn that doctors spent the bulk of their clinic time working with the EHR, spending less than half the visit actually interacting with their patients.
 - Behavior analysis also found that clinical documentation and Computerized Provider Order Entry (CPOE) activity made up the bulk of their computer use.
 - Interviews confirmed that doctors spend the bulk of their time dealing with documentation, explicitly pointing to boilerplate templates and copy-pasted content from older notes being the most burdensome.
 

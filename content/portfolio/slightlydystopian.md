@@ -1,5 +1,5 @@
 +++
-title = 'Slightly Distopian Demos'
+title = 'Slightly Dystopian Demos'
 featured_image = 'images/sd_alone.png'
 draft = false
 weight = 4
@@ -12,14 +12,14 @@ weight = 4
 
 ## Outcomes
 
-- We built several "Dystopian Demos" that were showcased at City Council meetings which led to the systems being critical assessed and ultimately funding for the smart streetlight program was not renewed.
+- We built several "Dystopian Demos" that were showcased at City Council meetings which led to the systems being critically assessed and ultimately funding for the smart streetlight program was not renewed.
 - The Transparent and Responsible Use of Surveillance Technology San Diego (TRUST SD) Coalition was formed to provide oversight on any future city-wide surveillance programs.
 
 ## Details
 
 - In order to showcase how the CityIQ API might be misused, we collected a sample of about one week's worth of data. We worked with old data (a month old) because we did not want to ease the use of anyone trying to make real-time systems.
-- We used the data to evaluate potential targetting, and generated ideas around (1) detecting temporal rhythms of congregation of specific people (for example, at a mosque), (2) detecting loitering / encampments of unhoused, and (3) detecting pedestrians walking alone.
-- We build out prototype web applications using this data to showcase our three identified use cases, the most popular (in sense of strongest reaction) was to the third idea, an app we called "Someone Walks Home Alone At Night", and is pictured below.
+- We used the data to evaluate potential targeting and generated ideas around (1) detecting temporal rhythms of the congregation of specific people (for example, at a mosque), (2) detecting loitering / encampments of unhoused, and (3) detecting pedestrians walking alone.
+- We build out prototype web applications using this data to showcase our three identified use cases, the most popular (in the sense of strongest reaction) was the third idea, an app we called "Someone Walks Home Alone At Night", and is pictured below.
 
 ![Someone Walks Home Alone](../../images/alone_at_night.png)
 

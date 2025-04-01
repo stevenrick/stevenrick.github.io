@@ -31,7 +31,7 @@ weight = 1
 ![Ideator Redesigns](../../images/ideator_iterations.png)
 
 - While our Move Sets solved initial user frustration with knowing where to start, it did not really encourage iteration or next steps, so I led the development of a recommendation engine to suggest a next Move based on prior moves, user input, and system output.
-- I managed a team of student designers to explore ways to reimagne the Ideator interface and redesign our application to support people exploring, synthesizing, and recombining ideas.
+- I managed a team of student designers to explore ways to reimagine the Ideator interface and redesign our application to support people exploring, synthesizing, and recombining ideas.
 
 ## Artifacts
 
@@ -42,9 +42,9 @@ weight = 1
 
 ## Skills
 
-- Full Stack Web Application Developemnt (React, FastAPI, NGINX, AWS Amplify, Cognito, DynamoDB, Sqlite)
+- Full Stack Web Application Development (React, FastAPI, NGINX, AWS Amplify, Cognito, DynamoDB, Sqlite)
 - Large Language Models (prompting, fine-tuning, retrieval-augmented generation)
-- Recommnedation Systems
+- Recommendation Systems
 - Semantic Clustering and NLP Heuristics
 - Empirical Crowdsourced Experiments (Prolific, Qualtrics)
 - Usage Behavior Analysis

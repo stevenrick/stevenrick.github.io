@@ -7,18 +7,18 @@ weight = 3
 
 ## Overview
 
-- Combining learnings from prior work, I rebuilt the Lab In A Box software into a unifed multimodal data capture system.
-- ChronoSense evolved from a Windows only application written in C# to an OS agnostic Electron application.
-- ChronoSense supports time-aligned data capture from multiple audio and video devices, and had a plugin architecture to support integrating other devices via the Node.js C++ addon layer.
+- Combining learnings from prior work, I rebuilt the Lab In A Box software into a unified multimodal data capture system.
+- ChronoSense evolved from a Windows-only application written in C# to an OS-agnostic Electron application.
+- ChronoSense supports time-aligned data capture from multiple audio and video devices and has a plugin architecture to support integrating other devices via the Node.js C++ addon layer.
 
 ## Outcomes
 
-- ChronoSense is an open source software available at [https://chronosense.ucsd.edu/](https://chronosense.ucsd.edu/).
+- ChronoSense is an open-source software available at [https://chronosense.ucsd.edu/](https://chronosense.ucsd.edu/).
 - ChronoSense has supported a wide range of research around multimodal human behavior analytics.
 
 ## Details
 
-- The Lab In A Box system first used a piece of software known as Kinect4ChronoViz to capture data from a Kinect v1 and save it to disk as a series of images from the color and depth camera and all body tracking via csv files.
+- The Lab In A Box system first used a piece of software known as Kinect4ChronoViz to capture data from a Kinect v1 and save it to disk as a series of images from the color and depth camera and all body tracking via CSV files.
 - As I used Kinect4ChronoViz in different settings I learned about its utility and limitations for researchers and sought to improve the tool to be more widely accessible.
 - ChronoSense was officially launched with the launch of the Kinect v2, which brought to light many shortcomings of the old software with a new device that had higher framerates and resolutions.
 

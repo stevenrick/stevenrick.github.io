@@ -16,9 +16,9 @@ weight = 5
 
 ## Details
 
-- We rapdily prototyped a Typescript audio transcription application using the Microsoft Kinect v2 (which has a microphone array to help with speech processing) and Azure Cognitive Services.
-- We recruited doctors and patient actors to run trials and evaluate WER, finding that a lot of medical language gets misunderstood by models trained on coversational speech (i.e. "a flair up of your CPOE" became "a flavor soupy")
-- In collaboration with other Microsoft Research teams, we improved the medical language understanding of laguange models deployed on Azure Cognitive Services by incorporating data from UMLS medical ontology with curated and annotated clinical recordings.
+- We rapidly prototyped a Typescript audio transcription application using the Microsoft Kinect v2 (which has a microphone array to help with speech processing) and Azure Cognitive Services.
+- We recruited doctors and patient actors to run trials and evaluate WER, finding that a lot of medical language gets misunderstood by models trained on conversational speech (i.e. "a flair up of your CPOE" became "a flavor soupy")
+- In collaboration with other Microsoft Research teams, we improved the medical language understanding of language models deployed on Azure Cognitive Services by incorporating data from UMLS medical ontology with curated and annotated clinical recordings.
 
 ## Artifacts
 
