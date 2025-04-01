@@ -19,10 +19,10 @@ weight = 9
 
 ## Details
 
-- Before begining any redesign work, it was critical to get oriented around FMRDs by looking at both the current product and run competitive analysis of other products on the market from companies like McKessen, Cerner, and Philips.
+- Before beginning any redesign work, it was critical to get oriented around FMRDs by looking at both the current product and running competitive analysis of other products on the market from companies like McKesson, Cerner, and Philips.
 - After completing the competitive analysis, we met with and interviewed the engineering lead, head of marketing, and several perinatal nurses to collect stakeholder needs.
-- Several product needs were surfaced, including engineering's need to move to a responsive web tech stack that could scale from large displays down to mobile tablets easily. Marketing and the CEO also wanted to establish stronger branding with their product.
-- From the practioner side, nurses needed a glanceable interface that could quickly tell them the state of their patients and the system sensors, and alert them to anything troubling related to heart rate, oxygen saturation, blood pressure, or device disconnection.
+- Several product needs surfaced, including engineering's need to move to a responsive web tech stack that could scale from large displays down to mobile tablets easily. Marketing and the CEO also wanted to establish stronger branding with their product.
+- From the practitioner side, nurses needed a glanceable interface that could quickly tell them the state of their patients and the system sensors, and alert them to anything troubling related to heart rate, oxygen saturation, blood pressure, or device disconnection.
 
 ## Artifacts
 
