@@ -9,7 +9,7 @@ These are a subset of peer reviewed published articles from my [curriculum vitae
 
 #### 2025
 
-**Rick**, Heyman, Paredes, Hong & Malone. (2025). [How far afield should you go when being creative? Semantic area as a metric of AI's effects on creative ideation]([https://doi.org/10.1145/3643562.3672611](https://computationalcreativity.net/iccc25/wp-content/uploads/papers/iccc25-rick2025how.pdf)). _Proceedings of ICCC Conference_.
+**Rick**, Heyman, Paredes, Hong & Malone. (2025). [How far afield should you go when being creative? Semantic area as a metric of AI's effects on creative ideation](https://computationalcreativity.net/iccc25/wp-content/uploads/papers/iccc25-rick2025how.pdf). _Proceedings of ICCC_.
 
 #### 2024
 
