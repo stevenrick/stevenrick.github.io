@@ -7,6 +7,10 @@ draft = false
 
 These are a subset of peer reviewed published articles from my [curriculum vitae](https://drive.google.com/file/d/1MI95BTCKSKNYh1-BvJurPmgLtOsfU3vx/view?usp=sharing).
 
+#### 2025
+
+**Rick**, Heyman, Paredes, Hong & Malone. (2025). [How far afield should you go when being creative? Semantic area as a metric of AI's effects on creative ideation]([https://doi.org/10.1145/3643562.3672611](https://computationalcreativity.net/iccc25/wp-content/uploads/papers/iccc25-rick2025how.pdf)). _Proceedings of ICCC Conference_.
+
 #### 2024
 
 Heyman, **Rick**, Giacomelli, Wen, Laubacher, Taubenslag, Knicker, Jeddi, Ragupathy, Curhan & Malone. (2024). [Supermind Ideator: How Scaffolding Human-AI Collaboration Can Increase Creativity](https://doi.org/10.1145/3643562.3672611). _Proceedings of ACM CI Conference_.
