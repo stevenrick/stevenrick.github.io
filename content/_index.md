@@ -3,7 +3,7 @@ layout = 'landing_page'
 image = 'images/headshot.jpg'
 +++
 
-HCI Scientist **-** UX Researcher **-** AI Applications Engineer
+HCI Scientist **-** UX Researcher **-** AI Applications
 
 ⠀
 
