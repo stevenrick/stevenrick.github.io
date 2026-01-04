@@ -1,21 +1,35 @@
 +++
-title = 'Links'
+title = 'Affiliations & Service'
 weight = 30
 draft = false
 +++
 
-- **3C Fellow** (first cohort): [Cultural Competence in Computing](https://identity.cs.duke.edu/fellows.html)
+Professional involvement in academic and industry organizations, research projects, and community initiatives.
 
-- **CSE DEI Committee** (founding member): [UC San Diego](https://cse.ucsd.edu/diversity/cse-dei-committee)
+## Current Roles
 
-- **Dagstuhl Seminar 25442** (co-organizer): [Augmenting Human Creativity with AI](https://www.dagstuhl.de/25442)
+**Dagstuhl Seminar 25442** (Co-organizer)
+Organizing a seminar on augmenting human creativity with AI at Schloss Dagstuhl. [Learn more →](https://www.dagstuhl.de/25442)
 
-- **EmpowerMD** (researcher): [Microsoft Research](https://www.microsoft.com/en-us/research/video/empowermd-medical-conversations-to-medical-intelligence/)
+**Supermind Ideator** (Lead Architect)
+Leading the development of an AI-powered creative ideation platform at MIT. [Try the tool →](https://ideator.mit.edu/)
 
-- **Graduate Women in Computing** (executive board): [UC San Diego](https://gradwic.ucsd.edu/)
+## Past Involvement
 
-- **Lab-in-a-Box** (researcher): [UC San Diego](https://today.ucsd.edu/story/lab_in_a_box_takes_aim_at_doctors_computer_activity)
+**3C Fellow** (First Cohort)
+Fellowship program focused on cultural competence in computing. [Cultural Competence in Computing →](https://identity.cs.duke.edu/fellows.html)
 
-- **Supermind Ideator** (lead architect): [MIT](https://ideator.mit.edu/)
+**CSE DEI Committee** (Founding Member)
+Helped establish diversity, equity, and inclusion initiatives for UC San Diego's CSE department. [UC San Diego →](https://cse.ucsd.edu/diversity/cse-dei-committee)
 
-- **UnBIASED** (researcher): [UC San Diego](https://www.unbiased.health/)
+**EmpowerMD** (Researcher)
+Developed AI systems for clinical documentation and medical intelligence at Microsoft Research. [Project details →](https://www.microsoft.com/en-us/research/video/empowermd-medical-conversations-to-medical-intelligence/)
+
+**Graduate Women in Computing** (Executive Board)
+Served on leadership team supporting women in computing at UC San Diego. [GradWIC →](https://gradwic.ucsd.edu/)
+
+**Lab-in-a-Box** (Researcher)
+Created portable usability lab for studying physician-computer interactions. [Read about it →](https://today.ucsd.edu/story/lab_in_a_box_takes_aim_at_doctors_computer_activity)
+
+**UnBIASED** (Researcher)
+Research initiative addressing bias in healthcare technologies. [UnBIASED →](https://www.unbiased.health/)

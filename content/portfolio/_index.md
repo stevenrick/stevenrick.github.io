@@ -5,4 +5,4 @@ weight = 30
 draft = false
 +++
 
-A collection of some of my prior and ongoing work.
+Selected work spanning AI-powered creativity tools, healthcare systems, and HCI research.
