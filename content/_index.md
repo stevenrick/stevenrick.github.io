@@ -5,11 +5,11 @@ image = 'images/headshot.jpg'
 
 HCI Scientist • UX Researcher • AI Applications
 
-## Currently
+## Current
 
-Solutions Architect @ [NVIDIA](https://www.nvidia.com/)
+- Solutions Architect @ [NVIDIA](https://www.nvidia.com/)
 
-## Previous
+## Prior
 
 - Postdoc @ [MIT](https://web.mit.edu/) with [CCI](https://cci.mit.edu/) and [CSAIL](https://www.csail.mit.edu/)
 - PhD @ [UCSD](https://ucsd.edu/) with [HXI](https://hxi.ucsd.edu/) and [DesignLab](https://designlab.ucsd.edu/)
