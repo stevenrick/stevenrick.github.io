@@ -3,6 +3,7 @@ title = 'Publications'
 menu = 'main'
 weight = 40
 draft = false
+layout = 'publications'
 +++
 
 Selected research in human-computer interaction, artificial intelligence, and healthcare informatics. [Full CV →](https://drive.google.com/file/d/1MI95BTCKSKNYh1-BvJurPmgLtOsfU3vx/view?usp=sharing)

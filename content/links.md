@@ -2,6 +2,7 @@
 title = 'Affiliations & Service'
 weight = 30
 draft = false
+layout = 'affiliations'
 +++
 
 Professional involvement in academic and industry organizations, research projects, and community initiatives.
