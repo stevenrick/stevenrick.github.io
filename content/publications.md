@@ -10,6 +10,9 @@ Selected research in human-computer interaction, artificial intelligence, and he
 
 #### 2025
 
+Johnson, **Rick**, Grønbæk, Wong, Yin, Nebeling, Klein, Ackerman & Malone. (2025). [Augmenting Collaborative Problem-Solving: Exploring the Design and Use of GenAI for Groupwork](https://www.doi.org/10.1145/3715070.3748297).
+*Workshop at CSCW*
+
 **Rick**, Heyman, Paredes, Hong & Malone. (2025). [How far afield should you go when being creative? Semantic area as a metric of AI's effects on creative ideation](https://computationalcreativity.net/iccc25/wp-content/uploads/papers/iccc25-rick2025how.pdf).
 *Proceedings of ICCC*
 
