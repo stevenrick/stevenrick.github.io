@@ -1,0 +1,49 @@
+footer {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+    border-top: 1px solid $border-color;
+    padding-top: 1em;
+    font-size: small;
+    color: $secondary-text-color;
+
+    .fas, .fab, .ai {
+        font-size: large;
+        transition: all 0.2s ease;
+    }
+
+    .fas:hover, .fab:hover, .ai:hover {
+        color: $link-color;
+        transform: scale(1.1);
+    }
+
+}
+
+footer ul li a i {
+    color: $secondary-text-color;
+}
+
+footer ul {
+	display: table;
+	margin: auto;
+    padding: 0;
+}
+
+footer li {
+	list-style-type: none;
+	display: inline-block;
+    padding: 0px 10px;
+}
+
+footer a {
+    color: $secondary-text-color;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgba($text-color, 0.2);
+    text-underline-offset: 3px;
+    transition: text-decoration-color 0.2s ease;
+}
+
+footer a:hover  {
+    text-decoration-color: $link-color;
+}

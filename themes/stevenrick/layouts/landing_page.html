@@ -1,0 +1,41 @@
+{{ define "main" }}
+<div class="landing-page-tagline fade-in-up">{{ .Content }}</div>
+
+<div class="landing-page-wrapper">
+    <div class="landing-page-content fade-in-up wait-1">
+        <div>
+            {{- if .Params.bio_snapshot -}}
+            <p class="bio-snapshot">
+                {{ .Params.bio_snapshot | markdownify }}
+            </p>
+            {{- end -}}
+
+            {{- if .Params.roles_current -}}
+            <div class="section-card">
+                <h2>Current</h2>
+                <ul>
+                    {{- range .Params.roles_current -}}
+                        <li>{{ .text | markdownify }}</li>
+                    {{- end -}}
+                </ul>
+            </div>
+            {{- end -}}
+
+            <div class="hero-buttons">
+                <a href="/about/" class="btn-primary">Read Full Bio →</a>
+                <div class="dropdown">
+                    <a href="javascript:void(0)" class="btn-secondary dropdown-trigger">Explore My Work ▾</a>
+                    <div class="dropdown-content">
+                        <a href="/portfolio/">Portfolio</a>
+                        <a href="/publications/">Publications</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="landing-page-image fade-in-up wait-2">
+        <img class="profile-floating" src="{{ .Params.image }}" alt="{{ .Site.Params.head.author | default "Profile" }}" width="221" height="331">
+    </div>
+</div>
+{{ end }}
