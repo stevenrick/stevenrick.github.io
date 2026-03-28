@@ -28,14 +28,14 @@ theme = 'stevenrick'
     show_footer = true
 
 [params.typography]
-    title_font = "Roboto Serif"
-    body_font = "Roboto Sans Serif"
+    title_font = "Outfit"
+    body_font = "Inter"
 
 [params.colors]
-    theme_color = "#333333"
-    background_color = "#fcfbf9"
-    text_color = "#333333"
-    link_color = "#60c17d"
+    theme_color = "#0f172a"
+    background_color = "#f8fafc"
+    text_color = "#334155"
+    link_color = "#10b981"
 
 [params.social]
     [params.social.email]

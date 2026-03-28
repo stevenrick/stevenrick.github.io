@@ -10,12 +10,13 @@ main {
         text-decoration: underline;
         text-decoration-style: solid;
         text-decoration-color: rgba($text-color, 0.2);
-        transition: text-decoration-color 0.2s ease;
+        transition: text-decoration-color 0.2s ease, color 0.2s ease;
         text-underline-offset: 3px;
     }
 
     a:hover {
         text-decoration-color: $link-color;
+        color: $link-color;
     }
 
     figure {
@@ -59,30 +60,30 @@ main {
         margin-inline: auto;
         margin-block: 3em;
         grid-auto-rows: 1fr;
-
-        --gap: 1.5rem;
-        --line-offset: calc(var(--gap) / 2);
-        --line-thickness: 1px;
-        --line-color: rgba(96, 193, 125, 0.3);
-
+        --gap: 2rem;
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
-        overflow: hidden;
         gap: var(--gap);
     }
 
     .grid__item {
-        padding: 1em;
+        padding: 1.5em;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
-        border-radius: 4px;
+        transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s ease, border-color 0.3s ease;
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.4);
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        backdrop-filter: blur(10px);
         position: relative;
 
         &:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            border-color: rgba($link-color, 0.3);
+            z-index: 10;
         }
 
         > * {
@@ -91,40 +92,20 @@ main {
         }
     }
 
-    .grid__item::before,
-    .grid__item::after {
-        content: '';
-        position: absolute;
-        background-color: var(--line-color);
-        z-index: 0;
-    }
-
-    .grid__item::after {
-        inline-size: 100vw;
-        block-size: var(--line-thickness);
-        inset-inline-start: 0;
-        inset-block-start: calc(var(--line-offset) * -1);
-    }
-
-    .grid__item::before {
-        inline-size: var(--line-thickness);
-        block-size: 100vh;
-        inset-block-start: 0;
-        inset-inline-start: calc(var(--line-offset) * -1);
-    }
-
     .image-hero {
         padding-bottom: 30px;
     }
 
     .image-hero-small {
-        margin-bottom: 1em;
+        margin-bottom: 1.25em;
+        overflow: hidden;
+        border-radius: 8px;
 
         img {
             max-width: 100%;
             height: auto;
-            border-radius: 4px;
-            transition: transform 0.2s ease, opacity 0.2s ease;
+            border-radius: 8px;
+            transition: transform 0.5s ease;
         }
     }
 
@@ -138,8 +119,7 @@ main {
             color: $link-color;
 
             .image-hero-small img {
-                transform: scale(1.02);
-                opacity: 0.9;
+                transform: scale(1.05);
             }
         }
     }

@@ -1,12 +1,13 @@
 // Tagline - full width above columns
 .landing-page-tagline {
-    font-size: 24px;
+    font-size: 26px;
     color: $text-color;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 1.5em;
     text-align: center;
     position: relative;
     padding-bottom: 0.75em;
+    letter-spacing: -0.02em;
 
     &::after {
         content: '';
@@ -14,10 +15,11 @@
         bottom: 0;
         left: 50%;
         transform: translateX(-50%);
-        width: 60px;
-        height: 2px;
-        background: $link-color;
-        opacity: 0.6;
+        width: 80px;
+        height: 3px;
+        background: linear-gradient(90deg, rgba($link-color, 0), $link-color, rgba($link-color, 0));
+        opacity: 0.8;
+        border-radius: 3px;
     }
 }
 
@@ -27,24 +29,28 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .landing-page-content {
-    width: 50%;
+    width: calc(55% - 1.5rem);
     align-items: center;
     display: inline-flex;
 
     .section-card {
-        background: rgba(0, 0, 0, 0.02);
-        border-radius: 6px;
-        padding: 1.25em 1.5em;
-        margin-bottom: 1.25em;
-        transition: all 0.2s ease;
+        background: rgba(255, 255, 255, 0.5);
+        border: 1px solid rgba(0, 0, 0, 0.03);
+        backdrop-filter: blur(10px);
+        border-radius: 12px;
+        padding: 1.5em 1.75em;
+        margin-bottom: 1.5em;
+        transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02);
 
         &:hover {
-            background: rgba(0, 0, 0, 0.03);
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            transform: translateY(-4px);
+            box-shadow: 0 12px 20px -5px rgba(0, 0, 0, 0.08);
+            border-color: rgba($link-color, 0.15);
         }
 
         h2 {
@@ -62,29 +68,30 @@
     }
 
     .cta-card {
-        background: rgba(96, 193, 125, 0.05);
-        border-radius: 6px;
-        padding: 1.25em 1.5em;
+        background: linear-gradient(135deg, rgba($link-color, 0.08), rgba($link-color, 0.02));
+        border: 1px solid rgba($link-color, 0.1);
+        border-radius: 12px;
+        padding: 1.5em 1.75em;
         margin-top: 1.5em;
-        transition: all 0.2s ease;
+        transition: all 0.3s ease;
         font-size: 16px;
 
         &:hover {
-            background: rgba(96, 193, 125, 0.08);
-            box-shadow: 0 2px 8px rgba(96, 193, 125, 0.15);
+            background: linear-gradient(135deg, rgba($link-color, 0.12), rgba($link-color, 0.05));
+            box-shadow: 0 8px 16px rgba($link-color, 0.1);
         }
 
         a {
             color: $link-color;
             text-decoration: none;
             font-weight: 600;
-            border-bottom: 2px solid rgba(96, 193, 125, 0.4);
+            border-bottom: 2px solid rgba($link-color, 0.3);
             transition: all 0.2s ease;
             padding-bottom: 2px;
 
             &:hover {
                 border-bottom-color: $link-color;
-                color: darken(#60c17d, 10%);
+                color: darken(#14b8a6, 10%);
             }
         }
     }
@@ -96,16 +103,17 @@
 
         li {
             margin-bottom: 0.65em;
-            line-height: 1.55;
+            line-height: 1.6;
             position: relative;
             padding-left: 1.15em;
 
             &::before {
-                content: '▸';
+                content: '→';
                 position: absolute;
                 left: 0;
                 color: $link-color;
-                font-size: 13px;
+                font-size: 14px;
+                font-weight: 600;
             }
         }
     }
@@ -113,10 +121,20 @@
 
 .landing-page-image {
     align-items: center;
-    width: 45%;
+    width: calc(45% - 1.5rem);
     text-align: center;
     padding: 0;
     display: inline-flex;
+}
+
+@keyframes float {
+    0%   { transform: translateY(0px); }
+    50%  { transform: translateY(-12px); }
+    100% { transform: translateY(0px); }
+}
+
+.profile-floating {
+    animation: float 6s ease-in-out infinite;
 }
 
 .landing-page-image img {
@@ -124,13 +142,13 @@
     height: auto;
     width: 100%;
     max-width: 550px;
-    border-radius: 8px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    border: 4px solid rgba(255, 255, 255, 0.8);
 
     &:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 30px 60px rgba($link-color, 0.15);
     }
 }
 
@@ -142,7 +160,7 @@
 
 @media only screen and (max-width: 767px) {
     .landing-page-tagline {
-        font-size: 20px;
+        font-size: 22px;
         margin-bottom: 1.25em;
         padding-bottom: 0.65em;
 
@@ -152,7 +170,7 @@
     }
 
     .landing-page-wrapper {
-        gap: 1.25rem;
+        gap: 1.5rem;
     }
 
     .landing-page-content {
@@ -161,8 +179,8 @@
         padding: 0;
 
         .section-card {
-            padding: 1em 1.25em;
-            margin-bottom: 1em;
+            padding: 1.25em;
+            margin-bottom: 1.25em;
 
             h2 {
                 font-size: 18px;
@@ -171,7 +189,7 @@
         }
 
         .cta-card {
-            padding: 1em 1.25em;
+            padding: 1.25em;
             margin-top: 1.25em;
             font-size: 15px;
         }
@@ -189,5 +207,6 @@
 
     .landing-page-image img {
         max-width: 400px;
+        animation: none; /* Disable float on mobile to save battery */
     }
 }
