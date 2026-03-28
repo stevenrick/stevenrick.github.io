@@ -1,0 +1,9 @@
+{{ define "main" }}
+<div class="about-page fade-in-up">
+    <h1>{{ .Title | safeHTML }}</h1>
+    
+    <div class="about-intro narrative">
+        {{ .Content }}
+    </div>
+</div>
+{{ end }}

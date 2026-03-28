@@ -4,6 +4,12 @@
 <div class="landing-page-wrapper">
     <div class="landing-page-content fade-in-up wait-1">
         <div>
+            {{- if .Params.bio_snapshot -}}
+            <p class="bio-snapshot">
+                {{ .Params.bio_snapshot | markdownify }}
+            </p>
+            {{- end -}}
+
             {{- if .Params.roles_current -}}
             <div class="section-card">
                 <h2>Current</h2>
@@ -15,22 +21,16 @@
             </div>
             {{- end -}}
 
-            {{- if .Params.roles_prior -}}
-            <div class="section-card">
-                <h2>Prior</h2>
-                <ul>
-                    {{- range .Params.roles_prior -}}
-                        <li>{{ .text | markdownify }}</li>
-                    {{- end -}}
-                </ul>
+            <div class="hero-buttons">
+                <a href="/about/" class="btn-primary">Read Full Bio →</a>
+                <div class="dropdown">
+                    <a href="javascript:void(0)" class="btn-secondary dropdown-trigger">Explore My Work ▾</a>
+                    <div class="dropdown-content">
+                        <a href="/portfolio/">Portfolio</a>
+                        <a href="/publications/">Publications</a>
+                    </div>
+                </div>
             </div>
-            {{- end -}}
-
-            {{- if .Params.call_to_action -}}
-            <div class="cta-card">
-                {{ .Params.call_to_action | markdownify }}
-            </div>
-            {{- end -}}
         </div>
     </div>
     

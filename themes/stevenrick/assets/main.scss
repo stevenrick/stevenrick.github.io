@@ -138,3 +138,105 @@ main > :first-child { margin-top: 0; }
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
 }
+
+.about-page {
+    max-width: 800px;
+    margin: 0 auto;
+
+    h1 {
+        font-size: 32px;
+        margin-bottom: 0.5em;
+        text-align: center;
+    }
+    
+    .about-intro {
+        font-size: 18px;
+        line-height: 1.7;
+        margin-bottom: 2.5em;
+        color: $text-color;
+        
+        &.narrative {
+            text-align: left;
+            background: transparent;
+            padding: 0;
+            border: none;
+            
+            p {
+                margin-bottom: 1.5em;
+            }
+            
+            a {
+                color: $link-color;
+                font-weight: 500;
+                text-decoration: none;
+                border-bottom: 1px solid rgba($link-color, 0.3);
+                transition: all 0.2s ease;
+                
+                &:hover {
+                    border-bottom-color: $link-color;
+                }
+            }
+        }
+    }
+
+    .cv-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .section-card {
+        background: rgba(255, 255, 255, 0.4);
+        border: 1px solid rgba(0, 0, 0, 0.03);
+        backdrop-filter: blur(10px);
+        border-radius: 12px;
+        padding: 2em;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02);
+        transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+        &:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+            border-color: rgba($link-color, 0.15);
+        }
+
+        h2 {
+            font-size: 22px;
+            margin-top: 0;
+            margin-bottom: 1em;
+            color: $text-color;
+            border-bottom: 2px solid rgba($link-color, 0.2);
+            padding-bottom: 0.4em;
+            display: inline-block;
+        }
+
+        .clean-list {
+            margin-left: 0;
+            padding-left: 0;
+            list-style: none;
+
+            li {
+                margin-bottom: 1em;
+                line-height: 1.6;
+                position: relative;
+                padding-left: 1.25em;
+
+                &::before {
+                    content: '→';
+                    position: absolute;
+                    left: 0;
+                    color: $link-color;
+                    font-size: 14px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .about-page .section-card {
+        padding: 1.25em;
+        h2 { font-size: 18px; }
+    }
+}

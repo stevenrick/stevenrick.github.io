@@ -13,7 +13,7 @@ theme = 'stevenrick'
 
 [menus]
 [[menus.main]]
-    name = 'About'
+    name = 'Home'
     pageRef = '/'
     weight = 10
 

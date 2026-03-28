@@ -33,7 +33,7 @@
         font-size: 16px;
         margin-bottom: 1.5em;
         padding: 1.25em;
-        background: rgba(96, 193, 125, 0.04);
+        background: rgba($link-color, 0.04);
         border-radius: 6px;
         border-left: 3px solid $link-color;
         line-height: 1.6;
@@ -79,7 +79,7 @@
             color: $link-color;
             text-decoration: none;
             font-weight: 500;
-            border-bottom: 1px solid rgba(96, 193, 125, 0.3);
+            border-bottom: 1px solid rgba($link-color, 0.3);
             transition: all 0.2s ease;
 
             &:hover {
@@ -91,8 +91,8 @@
     // Differentiate current roles with stronger accent
     h2:first-of-type + p:has(strong) {
         border-left-width: 4px;
-        border-left-color: rgba(96, 193, 125, 0.3);
-        background: rgba(96, 193, 125, 0.02);
+        border-left-color: rgba($link-color, 0.3);
+        background: rgba($link-color, 0.02);
 
         &:hover {
             border-left-color: $link-color;
