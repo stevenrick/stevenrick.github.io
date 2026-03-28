@@ -1,0 +1,12 @@
+name = "Steven Rick Theme"
+license = "MIT"
+description = "A custom standalone Hugo theme for Steven Rick's academic personal portfolio. Originally derived from the Barks theme."
+homepage = "https://stevenrick.com/"
+demosite = "https://stevenrick.com/"
+tags = ["academic", "portfolio", "personal", "minimal", "responsive", "publications"]
+features = ["Portfolio grid system", "Publications page", "Affiliations page", "Enhanced landing page", "Responsive design"]
+min_version = "0.128.0"
+
+[author]
+  name = "Steven R. Rick"
+  homepage = "https://stevenrick.com/"
