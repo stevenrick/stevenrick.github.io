@@ -5,9 +5,13 @@
 
     // Wait for DOM to be ready
     if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initNavigation);
+        document.addEventListener('DOMContentLoaded', function() {
+            initNavigation();
+            initDropdowns();
+        });
     } else {
         initNavigation();
+        initDropdowns();
     }
 
     function initNavigation() {
@@ -78,5 +82,52 @@
         navMenu.classList.remove('active');
         navToggle.classList.remove('active');
         navToggle.setAttribute('aria-expanded', 'false');
+    }
+
+    // Dropdown functionality
+    function initDropdowns() {
+        const dropdowns = document.querySelectorAll('.dropdown');
+        
+        dropdowns.forEach(function(dropdown) {
+            const trigger = dropdown.querySelector('.dropdown-trigger');
+            if (!trigger) return;
+
+            trigger.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation(); // Prevent document click from immediately firing
+                
+                const isActive = dropdown.classList.contains('active');
+                
+                closeAllDropdowns();
+
+                if (!isActive) {
+                    dropdown.classList.add('active');
+                    trigger.setAttribute('aria-expanded', 'true');
+                }
+            });
+        });
+
+        // Close dropdowns on Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeAllDropdowns();
+            }
+        });
+
+        // Close dropdowns when clicking outside
+        document.addEventListener('click', function(e) {
+            if (!e.target.closest('.dropdown.active')) {
+                closeAllDropdowns();
+            }
+        });
+    }
+
+    function closeAllDropdowns() {
+        const activeDropdowns = document.querySelectorAll('.dropdown.active');
+        activeDropdowns.forEach(function(dropdown) {
+            dropdown.classList.remove('active');
+            const trigger = dropdown.querySelector('.dropdown-trigger');
+            if (trigger) trigger.setAttribute('aria-expanded', 'false');
+        });
     }
 })();
