@@ -12,10 +12,10 @@
 
             {{- if .Params.roles_current -}}
             <div class="section-card">
-                <h2>Current</h2>
+                <h2>Current Role:</h2>
                 <ul>
                     {{- range .Params.roles_current -}}
-                        <li>{{ .text | markdownify }}</li>
+                    <li>{{ .text | markdownify }}</li>
                     {{- end -}}
                 </ul>
             </div>
@@ -24,7 +24,8 @@
             <div class="hero-buttons">
                 <a href="/about/" class="btn-primary">Read Full Bio →</a>
                 <div class="dropdown">
-                    <a href="javascript:void(0)" class="btn-secondary dropdown-trigger">Explore My Work ▾</a>
+                    <a href="javascript:void(0)" class="btn-secondary dropdown-trigger" aria-expanded="false"
+                        aria-haspopup="true">Explore My Work <span class="chevron">▾</span></a>
                     <div class="dropdown-content">
                         <a href="/portfolio/">Portfolio</a>
                         <a href="/publications/">Publications</a>
@@ -33,9 +34,10 @@
             </div>
         </div>
     </div>
-    
+
     <div class="landing-page-image fade-in-up wait-2">
-        <img class="profile-floating" src="{{ .Params.image }}" alt="{{ .Site.Params.head.author | default "Profile" }}" width="221" height="331">
+        <img class="profile-floating" src="{{ .Params.image }}" alt="{{ .Site.Params.head.author | default " Profile"
+            }}" width="221" height="331">
     </div>
 </div>
 {{ end }}
