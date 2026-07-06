@@ -10,10 +10,10 @@ Select works in human-computer interaction, artificial intelligence, and healthc
 
 #### 2026
 
-**Rick**, Bedmutha, Arriaga, De Choudhury, Goldberg, Ismail, Kumar, Kwon, Pratt, Singh, Wong, Xu & Weibel. (2026). [GenAI and Synthetic Data in Healthcare: Exploring the Design and Use of AI-Generated Data for Interactive Health Systems](https://doi.org/10.1145/3786579.3799790)
+**Rick**, Bedmutha, Arriaga, De Choudhury, Goldberg, Ismail, Kumar, Kwon, Pratt, Singh, Wong, Xu & Weibel. (2026). [GenAI and Synthetic Data in Healthcare: Exploring the Design and Use of AI-Generated Data for Interactive Health Systems](https://doi.org/10.1145/3786579.3799790).
 *Workshop at ACM IH*
 
-Dingler, Giaccardi, **Rick**, Shklovski & Wadinambiarachchi. (2026). [Augmenting Human Creativity with AI](https://doi.org/10.4230/DagRep.15.10.155)
+Dingler, Giaccardi, **Rick**, Shklovski & Wadinambiarachchi. (2026). [Augmenting Human Creativity with AI](https://doi.org/10.4230/DagRep.15.10.155).
 *Dagstuhl Seminar 25442*
 
 #### 2025
