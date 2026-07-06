@@ -8,10 +8,18 @@ layout = 'publications'
 
 Select works in human-computer interaction, artificial intelligence, and healthcare informatics. [Full CV →](https://drive.google.com/file/d/1MI95BTCKSKNYh1-BvJurPmgLtOsfU3vx/view?usp=sharing)
 
+#### 2026
+
+**Rick**, Bedmutha, Arriaga, De Choudhury, Goldberg, Ismail, Kumar, Kwon, Pratt, Singh, Wong, Xu & Weibel. (2026). [GenAI and Synthetic Data in Healthcare: Exploring the Design and Use of AI-Generated Data for Interactive Health Systems](https://doi.org/10.1145/3786579.3799790)
+*Workshop at ACM IH*
+
+Dingler, Giaccardi, **Rick**, Shklovski & Wadinambiarachchi. (2026). [Augmenting Human Creativity with AI](https://doi.org/10.4230/DagRep.15.10.155)
+*Dagstuhl Seminar 25442*
+
 #### 2025
 
 Johnson, **Rick**, Grønbæk, Wong, Yin, Nebeling, Klein, Ackerman & Malone. (2025). [Augmenting Collaborative Problem-Solving: Exploring the Design and Use of GenAI for Groupwork](https://www.doi.org/10.1145/3715070.3748297).
-*Workshop at CSCW*
+*Workshop at ACM CSCW*
 
 **Rick**, Heyman, Paredes, Hong & Malone. (2025). [How far afield should you go when being creative? Semantic area as a metric of AI's effects on creative ideation](https://computationalcreativity.net/iccc25/wp-content/uploads/papers/iccc25-rick2025how.pdf).
 *Proceedings of ICCC*
