@@ -10,6 +10,9 @@ Select works in human-computer interaction, artificial intelligence, and healthc
 
 #### 2026
 
+Imteyaz, Rifat, Ramesh, **Rick**, Hosio, Sandhaus, Sarkar, Riedl, Savage. (2026). ["Nobody Did This": Contribution, Originality, and Accountability in Agent-Mediated Collaboration](https://dl.acm.org/doi/10.1145/3785651.3818822). 
+*Workshop at ACM CSCW*
+
 **Rick**, Bedmutha, Arriaga, De Choudhury, Goldberg, Ismail, Kumar, Kwon, Pratt, Singh, Wong, Xu & Weibel. (2026). [GenAI and Synthetic Data in Healthcare: Exploring the Design and Use of AI-Generated Data for Interactive Health Systems](https://doi.org/10.1145/3786579.3799790).
 *Workshop at ACM IH*
 
